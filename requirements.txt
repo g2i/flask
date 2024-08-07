@@ -9,3 +9,4 @@ requests==2.26.0
 redis==3.5.3
 python-dotenv==0.19.0
 APScheduler==3.7.0
+airbyte-cdk==4.3.2
