@@ -1,6 +1,6 @@
 import os, json, secrets, requests, redis
 from dotenv import load_dotenv
-from email_sender import EmailSender
+from src.services.email.email_sender import EmailSender
 
 load_dotenv()
 

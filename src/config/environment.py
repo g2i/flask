@@ -1,0 +1,19 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+REDIS_URL = os.environ['REDIS_URL']
+XERO_CLIENT_ID = os.getenv("XERO_CLIENT_ID")
+XERO_CLIENT_SECRET = os.getenv("XERO_CLIENT_SECRET")
+XERO_TENANT_ID = os.getenv("XERO_TENANT_ID")
+POSTGRES_HOST = os.getenv("POSTGRES_HOST")
+POSTGRES_PORT = os.getenv("POSTGRES_PORT")
+POSTGRES_USER = os.getenv("POSTGRES_USER")
+POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
+POSTGRES_DATABASE = os.getenv("POSTGRES_DATABASE")
+SMTP_SERVER = os.getenv("SMTP_SERVER")
+SMTP_PORT = os.getenv("SMTP_PORT")
+SMTP_USERNAME = os.getenv("SMTP_USERNAME")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
+AWS_LAMBDA_SEND_EMAIL = os.getenv("AWS_LAMBDA_SEND_EMAIL")

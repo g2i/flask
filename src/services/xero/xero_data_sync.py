@@ -48,6 +48,7 @@ class XeroDataSync:
         self.source.select_all_streams()
         read_result: ab.ReadResult = self.source.read(cache=self.pg_cache, force_full_refresh=True)
         print(read_result)
+        print("Data sync finished")
 
 if __name__ == "__main__":
     syncer = XeroDataSync()
